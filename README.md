@@ -254,4 +254,4 @@ Demonstrates Cloudflare Workers + Durable Objects can provide enterprise-grade c
 
 ---
 
-**Deploy this now:** [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/NTinfinitumnihil/cloudflare-rfc3161-tsa)
+**Deploy this now:** [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/infinitum-nihil/cloudflare-rfc3161-tsa)
