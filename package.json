@@ -1,0 +1,28 @@
+{
+  "name": "cloudflare-rfc3161-tsa",
+  "version": "1.0.0",
+  "description": "Open-source RFC 3161 Timestamp Authority using Cloudflare Workers + Durable Objects",
+  "main": "src/index.ts",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "keywords": [
+    "rfc3161",
+    "timestamp",
+    "cloudflare",
+    "workers",
+    "durable-objects",
+    "cryptography",
+    "audit-trail",
+    "tamper-evident",
+    "blockchain",
+    "ai-accountability"
+  ],
+  "author": "NTinfinitumnihil",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/infinitum-nihil/cloudflare-rfc3161-tsa"
+  }
+}

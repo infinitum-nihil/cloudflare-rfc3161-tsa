@@ -1,0 +1,26 @@
+{
+  "name": "rfc3161-tsa",
+  "main": "src/index.ts",
+  "compatibility_date": "2024-09-23",
+  "compatibility_flags": ["nodejs_compat"],
+
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "TSA",
+        "class_name": "TimestampAuthority"
+      }
+    ]
+  },
+
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_classes": ["TimestampAuthority"]
+    }
+  ],
+
+  "observability": {
+    "enabled": true
+  }
+}
