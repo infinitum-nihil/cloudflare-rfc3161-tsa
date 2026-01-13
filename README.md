@@ -106,7 +106,6 @@ const TIMESTAMP_AUTHORITIES = [
 
 **1. AI Decision Audit Trails**
 ```typescript
-// Patent 99TB-414505 implementation
 const chainHash = sha512(aiConversation);
 const timestamp = await fetch('https://rfc3161-tsa.workers.dev/tsr', {
   method: 'POST',
@@ -248,7 +247,7 @@ MIT License - Free to use, modify, deploy
 
 ## Author
 
-Built as part of Patent 99TB-414505 (Tamper-Evident AI Decision Verification)
+Built with love for all by infinitum nihil
 
 Demonstrates Cloudflare Workers + Durable Objects can provide enterprise-grade cryptographic services with better performance than traditional solutions.
 
